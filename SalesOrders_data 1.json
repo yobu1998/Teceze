@@ -1,0 +1,90 @@
+{
+  "orders": [
+    {
+      "order_id": "SO-2024-001",
+      "customer": {
+        "name": "Acme Corporation",
+        "address": "123 Business Park Drive, Suite 400, New York, NY 10001",
+        "email": "accounts@acmecorp.com",
+        "contact": "John Smith"
+      },
+      "line_items": [
+        {"item_id": "ITEM-001", "description": "Industrial Widget A", "quantity": 10, "unit_price": 250.00},
+        {"item_id": "ITEM-002", "description": "Precision Component B", "quantity": 20, "unit_price": 175.00}
+      ],
+      "total": 6000.00
+    },
+    {
+      "order_id": "SO-2024-002",
+      "customer": {
+        "name": "TechStart Inc",
+        "address": "456 Innovation Way, San Francisco, CA 94105",
+        "email": "billing@techstart.io",
+        "contact": "Sarah Chen"
+      },
+      "line_items": [
+        {"item_id": "ITEM-101", "description": "Software License - Enterprise", "quantity": 5, "unit_price": 800.00},
+        {"item_id": "ITEM-102", "description": "Support Package - Premium", "quantity": 2, "unit_price": 500.00}
+      ],
+      "total": 5000.00
+    },
+    {
+      "order_id": "SO-2024-003",
+      "customer": {
+        "name": "Global Manufacturing Ltd",
+        "address": "789 Industrial Blvd, Chicago, IL 60601",
+        "email": "ap@globalmanuf.com",
+        "contact": "Michael Johnson"
+      },
+      "line_items": [
+        {"item_id": "ITEM-201", "description": "Heavy Duty Machine X1", "quantity": 3, "unit_price": 2500.00},
+        {"item_id": "ITEM-202", "description": "Spare Parts Kit", "quantity": 10, "unit_price": 150.00},
+        {"item_id": "ITEM-203", "description": "Installation Service", "quantity": 1, "unit_price": 500.00}
+      ],
+      "total": 9000.00
+    },
+    {
+      "order_id": "SO-2024-004",
+      "customer": {
+        "name": "SmallBiz LLC",
+        "address": "321 Main Street, Austin, TX 78701",
+        "email": "owner@smallbiz.com",
+        "contact": "Emily Davis"
+      },
+      "line_items": [
+        {"item_id": "ITEM-301", "description": "Office Supplies Bundle", "quantity": 5, "unit_price": 200.00},
+        {"item_id": "ITEM-302", "description": "Basic Equipment", "quantity": 2, "unit_price": 350.00}
+      ],
+      "total": 1700.00
+    },
+    {
+      "order_id": "SO-2024-005",
+      "customer": {
+        "name": "MegaCorp Industries",
+        "address": "999 Corporate Tower, Seattle, WA 98101",
+        "email": "finance@megacorp.com",
+        "contact": "Robert Wilson"
+      },
+      "line_items": [
+        {"item_id": "ITEM-401", "description": "Enterprise Solution Suite", "quantity": 1, "unit_price": 15000.00},
+        {"item_id": "ITEM-402", "description": "Training Program", "quantity": 10, "unit_price": 1000.00},
+        {"item_id": "ITEM-403", "description": "Implementation Services", "quantity": 5, "unit_price": 2000.00}
+      ],
+      "total": 35000.00
+    },
+    {
+      "order_id": "SO-2024-006",
+      "customer": {
+        "name": "Test Validation Corp",
+        "address": "555 Error Lane, Boston, MA 02101",
+        "email": "wrong@total.test",
+        "contact": "Test User"
+      },
+      "line_items": [
+        {"item_id": "ITEM-501", "description": "Product Alpha", "quantity": 5, "unit_price": 500.00},
+        {"item_id": "ITEM-502", "description": "Product Beta", "quantity": 3, "unit_price": 300.00}
+      ],
+      "total": 2000.00
+    }
+  ]
+}

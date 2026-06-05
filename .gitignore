@@ -1,0 +1,10 @@
+# Ignore generated invoice PDFs
+invoices/
+*.pdf
+
+# Ignore application log files
+*.log
+
+# Ignore python cache files
+__pycache__/
+*.pyc
